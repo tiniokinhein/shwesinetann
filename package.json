@@ -1,0 +1,46 @@
+{
+  "name": "shwe-sine-tann",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "@ramonak/react-progress-bar": "^5.0.3",
+    "animate.css": "^4.1.1",
+    "daisyui": "^2.46.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "framer-motion": "^8.4.0",
+    "next": "13.1.1",
+    "next-seo": "^5.15.0",
+    "react": "18.2.0",
+    "react-animated-popup": "^0.1.8",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-iframe": "^1.8.5",
+    "react-loading-skeleton": "^3.1.0",
+    "react-otp-field": "^3.0.1",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-select": "^5.7.0",
+    "react-simple-star-rating": "^5.1.7",
+    "react-tabs": "^6.0.0",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
