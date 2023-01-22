@@ -35,9 +35,10 @@ const FilterDropdown = ({items, className}) => {
                     <div className='absolute left-0 right-0 z-20 top-10 shadow rounded-md bg-white overflow-hidden'>
                         <div className='flex flex-col'>
                             {
-                                items.map( item => {
+                                items.map((item,i) => {
                                     return (
                                         <button
+                                            key={i}
                                             className={`
                                             text-left text-black/50 hover:text-white text-[12px]
                                             w-full px-5 py-3 border-[#D7E9FF] 
