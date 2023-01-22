@@ -17,6 +17,7 @@ const SearchSubmenu = ({ onClick }) => {
 
                     return (
                         <button 
+                            key={p.id}
                             className={`w-full text-left text-black/50 px-5 py-3 ${filter ? 'border-0' : 'border-b'} border-[#D7E9FF] bg-transparent hover:bg-100 hover:text-white text-[12px] transition-all hover:transition-all`}
                             onClick={() => onClick(p.title)}
                         >
