@@ -9,7 +9,7 @@ import MarketSlide from '../../components/market/MarketSlide'
 import { playfair } from '../../config/font'
 import { coItems } from '../../data/company'
 
-const register = () => {
+const Register = () => {
 
     const [state , setState] = React.useState({
         name: '',
@@ -410,4 +410,4 @@ const register = () => {
     )
 }
 
-export default register
+export default Register
