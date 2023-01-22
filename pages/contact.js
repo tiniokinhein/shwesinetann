@@ -4,7 +4,7 @@ import { playfair } from '../config/font'
 import { HiPhone } from 'react-icons/hi'
 import { IoIosMail } from 'react-icons/io'
 import { FaMapMarkerAlt } from 'react-icons/fa'
-import ContactForm from '../components/form/contactForm'
+import ContactForm from '../components/form/ContactForm'
 import ReportForm from '../components/form/ReportForm'
 
 const Contact = () => {
