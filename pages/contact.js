@@ -7,7 +7,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa'
 import ContactForm from '../components/form/contactForm'
 import ReportForm from '../components/form/ReportForm'
 
-const contact = () => {
+const Contact = () => {
 
     const [headTab , setHeadTab] = React.useState('contact')
     const [state , setState] = React.useState({
@@ -138,4 +138,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
