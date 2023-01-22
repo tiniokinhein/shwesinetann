@@ -62,7 +62,7 @@ const PromotionDetail = ({id}) => {
                         className='border-0 pb-5 mb-5 rounded-lg flex overflow-x-scroll min-w-screen minified-scrollbar'>
                         {
                             categoryBase.map((category, idx) => (
-                                <Tab className={`react-tabs__tab w-32 rounded-lg mx-2`}>
+                                <Tab key={idx} className={`react-tabs__tab w-32 rounded-lg mx-2`}>
                                     <CategoryCard key={idx} idx={idx} category={category}/>
                                 </Tab>))
                         }
@@ -70,7 +70,7 @@ const PromotionDetail = ({id}) => {
 
                     {
                         categoryBase.map((category, idx) => (
-                            <TabPanel>
+                            <TabPanel key={idx}>
                                 <ProductCardList products={products} pagination={{}}/>
                             </TabPanel>
                         ))
