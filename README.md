@@ -1,3 +1,3 @@
-# Shwe Sine Tann
+Shwe Sine Tann
 
 [Link](http://uat.shwesinetann.com)
